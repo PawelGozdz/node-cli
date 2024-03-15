@@ -1,0 +1,16 @@
+{
+  "name": "node-cli",
+  "version": "1.1.0",
+  "description": "Node CLI small projects",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "pg_demo": "./first-adpp/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clear-any-console": "^1.16.2"
+  }
+}
