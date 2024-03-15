@@ -7,10 +7,17 @@
   "bin": {
     "pg_demo": "./first-adpp/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "paweł góźdź",
+    "paweł",
+    "góźdź"
+  ],
+  "author": {
+    "name": "Pawel Gozdz"
+  },
+  "license": "MIT",
   "dependencies": {
-    "clear-any-console": "^1.16.2"
-  }
+    "cli-welcome": "^2.2.2"
+  },
+  "repository": "PawelGozdz/node-cli"
 }
