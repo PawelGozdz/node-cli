@@ -1,8 +1,18 @@
 #!/usr/bin/env node
-
-const pkgJSON = require('../package.json');
+// import { createRequire } from "module";
+// const require = createRequire(import.meta.url);
+// import chalk from 'chalk'
+// // import * as pkgJSON from '../package.json'
+// import welcome from 'cli-welcome'
+const pkgJSON = require("../package.json");
+const chalk = require('chalk')
 const welcome = require('cli-welcome');
+const log = console.log;
 
+const xColor = chalk.hex('#1da1f2').bold.inverse;
+const githubColor = chalk.hex('#6cc644').bold.inverse;
+const dim = chalk.dim;
+const italic = chalk.italic;
 
 welcome({
   title: pkgJSON.name,
@@ -15,12 +25,12 @@ welcome({
   clear: true
 })
 
-console.log(`
-pg_programming
+log(`
+${chalk.bgBlue.bold(' pg_programming ')}
 
-Dev
+${italic('Dev')}
 
-X:      https://x.com
-github: https://github.com
+${xColor(' X ')}       ${dim('https://x.com)')}
+${githubColor(' Gighub ')}  ${dim('https://github.com')}
 
-`) 
+`)

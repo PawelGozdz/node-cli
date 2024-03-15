@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {},
   "bin": {
-    "pg_demo": "./first-adpp/index.js"
+    "pg_demo": "./first-app/index.js"
   },
   "keywords": [
     "paweł góźdź",
@@ -17,6 +17,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "chalk": "^4.1.2",
     "cli-welcome": "^2.2.2"
   },
   "repository": "PawelGozdz/node-cli"
